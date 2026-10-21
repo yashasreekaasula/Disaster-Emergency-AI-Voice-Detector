@@ -1,0 +1,14 @@
+min_word_probability: 0.35
+fuzzy_threshold: 90
+max_gap_seconds: 1.0
+phrases:
+  - {text: help me, weight: 0.95}
+  - {text: save me, weight: 0.98}
+  - {text: leave me alone, weight: 0.95}
+  - {text: call the police, weight: 0.98}
+  - {text: call an ambulance, weight: 0.98}
+  - {text: somebody help, weight: 0.95}
+  - {text: help, weight: 0.65}
+  - {text: stop, weight: 0.45}
+  - {text: fire, weight: 0.60}
+suppress_phrases: [help desk, help menu, help page, fire station, fire drill, stop button, stop sign, bus stop]

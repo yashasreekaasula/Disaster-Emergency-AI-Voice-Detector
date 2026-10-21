@@ -1,0 +1,46 @@
+audio:
+  sample_rate: 16000
+  window_seconds: 15
+  hop_seconds: 1
+  event_seconds: 5
+  max_duration_seconds: 300
+  max_upload_mb: 40
+  decode_timeout_seconds: 60
+  min_seconds: 0.01
+  silence_rms: 0.0001
+  extensions: [wav, mp3, ogg, flac, m4a, webm]
+model:
+  device: auto
+  torch_threads: 4
+  ast_id: MIT/ast-finetuned-audioset-10-10-0.4593
+  whisper_size: tiny.en
+  whisper_language: en
+  whisper_device: cpu
+  local_files_only: true
+  models_dir: models
+training:
+  seed: 42
+  epochs: 40
+  batch_size: 16
+  learning_rate: 0.001
+  patience: 6
+  fast_epochs: 2
+  fast_per_class: 2
+fusion:
+  threshold: 0.65
+  target_false_positive_rate: 0.10
+  event_threshold: 0.85
+  fear_threshold: 0.80
+  keyword_threshold: 0.86
+  require_evidence_gate: true
+  strong_events: [gunshot, scream]
+  contextual_events: [glass_breaking, crying_baby, siren]
+  weak_positive_emotions: [fear]
+  weak_positive_events: [gunshot, glass_breaking, crying_baby]
+server:
+  max_live_clients: 2
+  live_timeout_seconds: 90
+  live_max_seconds: 3600
+  max_ws_message_bytes: 65536
+  timeline_limit: 100
+  log_level: INFO

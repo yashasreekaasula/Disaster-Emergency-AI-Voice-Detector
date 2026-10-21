@@ -1,0 +1,162 @@
+emotion_labels:
+- angry
+- disgust
+- fear
+- happy
+- neutral
+- sad
+- surprise
+- calm
+ravdess:
+  '01': neutral
+  '02': calm
+  '03': happy
+  '04': sad
+  '05': angry
+  '06': fear
+  '07': disgust
+  08: surprise
+crema:
+  ANG: angry
+  DIS: disgust
+  FEA: fear
+  HAP: happy
+  NEU: neutral
+  SAD: sad
+tess:
+  angry: angry
+  disgust: disgust
+  fear: fear
+  happy: happy
+  neutral: neutral
+  sad: sad
+  ps: surprise
+savee:
+  a: angry
+  d: disgust
+  f: fear
+  h: happy
+  n: neutral
+  sa: sad
+  su: surprise
+esc50:
+  dog: dog_bark
+  rooster: rooster
+  pig: pig
+  cow: cow
+  frog: frog
+  cat: cat
+  hen: hen
+  insects: insects
+  sheep: sheep
+  crow: crow
+  rain: rain
+  sea_waves: sea_waves
+  crackling_fire: crackling_fire
+  crickets: crickets
+  chirping_birds: chirping_birds
+  water_drops: water_drops
+  wind: wind
+  pouring_water: pouring_water
+  toilet_flush: toilet_flush
+  thunderstorm: thunderstorm
+  crying_baby: crying_baby
+  sneezing: sneezing
+  clapping: clapping
+  breathing: breathing
+  coughing: coughing
+  footsteps: footsteps
+  laughing: laughing
+  brushing_teeth: brushing_teeth
+  snoring: snoring
+  drinking_sipping: drinking_sipping
+  door_wood_knock: door_knock
+  mouse_click: mouse_click
+  keyboard_typing: keyboard_typing
+  door_wood_creaks: door_wood_creaks
+  can_opening: can_opening
+  washing_machine: washing_machine
+  vacuum_cleaner: vacuum_cleaner
+  clock_alarm: clock_alarm
+  clock_tick: clock_tick
+  glass_breaking: glass_breaking
+  helicopter: helicopter
+  chainsaw: chainsaw
+  siren: siren
+  car_horn: car_horn
+  engine: engine
+  train: train
+  church_bells: church_bells
+  airplane: airplane
+  fireworks: fireworks
+  hand_saw: hand_saw
+urban:
+  air_conditioner: air_conditioner
+  car_horn: car_horn
+  children_playing: children_playing
+  dog_bark: dog_bark
+  drilling: drilling
+  engine_idling: engine
+  gun_shot: gunshot
+  jackhammer: jackhammer
+  siren: siren
+  street_music: street_music
+environment_labels:
+- air_conditioner
+- airplane
+- breathing
+- brushing_teeth
+- can_opening
+- car_horn
+- cat
+- chainsaw
+- children_playing
+- chirping_birds
+- church_bells
+- clapping
+- clock_alarm
+- clock_tick
+- coughing
+- cow
+- crackling_fire
+- crickets
+- crow
+- crying_baby
+- dog_bark
+- door_knock
+- door_wood_creaks
+- drilling
+- drinking_sipping
+- engine
+- fireworks
+- footsteps
+- frog
+- glass_breaking
+- gunshot
+- hand_saw
+- helicopter
+- hen
+- insects
+- jackhammer
+- keyboard_typing
+- laughing
+- mouse_click
+- pig
+- pouring_water
+- rain
+- rooster
+- sea_waves
+- sheep
+- siren
+- sneezing
+- snoring
+- street_music
+- thunderstorm
+- toilet_flush
+- train
+- vacuum_cleaner
+- washing_machine
+- water_drops
+- wind
+native_only:
+  scream: AudioSet Screaming; not fine-tuned on ESC-50/UrbanSound8K
